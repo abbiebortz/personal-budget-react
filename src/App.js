@@ -1,5 +1,4 @@
-import './App.css';
-import React from 'react';
+import './App.scss';
 
 import {
   BrowserRouter as Router,
@@ -13,6 +12,7 @@ import HomePage from './HomePage/HomePage';
 import Footer from './Footer/Footer';
 import About from './AboutPage/AboutPage';
 import Login from './LoginPage/LoginPage';
+import MyComponent from './Component/MyComponent';
 
 function App() {
   return (
